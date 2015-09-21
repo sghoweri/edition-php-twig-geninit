@@ -30,12 +30,16 @@
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	
-	
 	"repositories": [
     {
       "name":"pattern-lab/core",
       "type":"git",
       "url":"https://github.com/sghoweri/patternlab-php-core"
+    },
+    {
+      "name":"pattern-lab/patternengine-php-twig",
+      "type":"git",
+      "url":"https://github.com/sghoweri/patternengine-php-twig"
     },
     {
       "name":"pattern-lab/styleguidekit-assets-default",
@@ -57,7 +61,7 @@
   ],
   "require": {
     "php": ">=5.3.6",
-    "pattern-lab/patternengine-twig": "dev-dev",
+    "pattern-lab/patternengine-twig": "0.6.8",
     "pattern-lab/core": "dev-dev",
     "pattern-lab/styleguidekit-assets-default": "dev-develop",
     "pattern-lab/styleguidekit-twig-gi": "0.*",
