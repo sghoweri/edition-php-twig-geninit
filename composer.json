@@ -25,12 +25,44 @@
 	},
 	"minimum-stability": "dev",
 	"prefer-stable": true,
-	"require": {
-		"php": ">=5.3.6",
-		"pattern-lab/core": "0.*",
-		"pattern-lab/patternengine-twig": "0.*",
-		"pattern-lab/styleguidekit-twig-default": "0.*"
-	},
+	
+	
+	"repositories": [
+    {
+      "name":"pattern-lab/core",
+      "type":"git",
+      "url":"https://github.com/sghoweri/patternlab-php-core"
+    },
+    {
+      "name":"pattern-lab/styleguidekit-assets-default",
+      "type":"git",
+      "url":"https://github.com/sghoweri/styleguidekit-assets-default"
+    },
+    {
+      "type":"package",
+      "package":{
+        "name":"pattern-lab/styleguidekit-twig-gi",
+        "version": "0.6.6.1",
+        "source":{
+            "type":"git",
+            "url":"git@bitbucket.org:genuine/styleguidekit-twig-gi.git",
+            "reference":"master"
+        }
+      }
+    }
+  ],
+  "require": {
+    "php": ">=5.3.6",
+    "pattern-lab/core": "dev-dev",
+    "pattern-lab/styleguidekit-assets-default": "dev-develop",
+    "pattern-lab/styleguidekit-twig-gi": "0.*",
+    "phpfastcache/phpfastcache": "~3.0",
+    "gregwar/image": "2.*",
+    "ksubileau/color-thief-php": "~1.2",
+    "miljar/php-exif": "~0.4",
+    "mikefunk/bustersphp": "1.1.*",
+    "pattern-lab/patternengine-twig": "dev-dev"
+  },	
 	"scripts": {
 		"post-create-project-cmd": [
 			"PatternLab\\Installer::postCreateProjectCmd"
