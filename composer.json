@@ -36,10 +36,10 @@
       "type":"git",
       "url":"https://github.com/sghoweri/patternlab-php-core"
     },
-    {
-      "name":"pattern-lab/patternengine-php-twig",
+		{
+      "name":"pattern-lab/starterkit-twig-base",
       "type":"git",
-      "url":"https://github.com/sghoweri/patternengine-php-twig"
+      "url":"https://github.com/sghoweri/starterkit-twig-regenerate"
     },
     {
       "name":"pattern-lab/styleguidekit-assets-default",
@@ -61,7 +61,8 @@
   ],
   "require": {
     "php": ">=5.3.6",
-    "pattern-lab/patternengine-twig": "0.6.8",
+		"pattern-lab/starterkit-twig-base": "dev-master",
+    "pattern-lab/patternengine-twig": "0.*",
     "pattern-lab/core": "dev-dev",
     "pattern-lab/styleguidekit-assets-default": "dev-develop",
     "pattern-lab/styleguidekit-twig-gi": "0.*",
@@ -104,6 +105,10 @@
 				"twigTestExt": "test.php",
 				"outputExt": ".php"
 			}
+		},
+		"branch-alias": {
+			"dev-dev": "0.*-dev"
 		}
+
 	}
 }
