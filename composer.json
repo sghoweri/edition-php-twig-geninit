@@ -83,5 +83,23 @@
 		"pre-package-uninstall": [
 			"PatternLab\\Installer::prePackageUninstall"
 		]
+	},
+	"extra": {
+		"patternlab": {
+			"config": { 
+				"lineageMatch": "{%([ ]+)?(?:extends|include|embed) [&quot;\&#039;]([A-Za-z0-9-_]+)[&quot;\&#039;](.*)%}",
+				"lineageMatchKey": 2,
+				"patternExtension": "twig",
+				"twigDebug": false,
+				"twigDefaultDateFormat": "",
+				"twigDefaultIntervalFormat": "",
+				"twigMacroExt": "macro.twig",
+				"twigFilterExt": "filter.php",
+				"twigFunctionExt": "function.php",
+				"twigTagExt": "tag.php",
+				"twigTestExt": "test.php",
+				"outputExt": ".php"
+			}
+		}
 	}
 }
