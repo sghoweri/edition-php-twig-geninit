@@ -57,6 +57,7 @@
   ],
   "require": {
     "php": ">=5.3.6",
+    "pattern-lab/patternengine-twig": "dev-dev",
     "pattern-lab/core": "dev-dev",
     "pattern-lab/styleguidekit-assets-default": "dev-develop",
     "pattern-lab/styleguidekit-twig-gi": "0.*",
@@ -64,8 +65,7 @@
     "gregwar/image": "2.*",
     "ksubileau/color-thief-php": "~1.2",
     "miljar/php-exif": "~0.4",
-    "mikefunk/bustersphp": "1.1.*",
-    "pattern-lab/patternengine-twig": "dev-dev"
+    "mikefunk/bustersphp": "1.1.*"
   },	
 	"scripts": {
 		"post-create-project-cmd": [
