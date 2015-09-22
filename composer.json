@@ -63,7 +63,7 @@
     "php": ">=5.3.6",
 		"pattern-lab/starterkit-twig-base": "dev-master",
     "pattern-lab/patternengine-twig": "0.*",
-    "pattern-lab/core": "dev-master",
+    "pattern-lab/core": "dev-dev",
     "pattern-lab/styleguidekit-assets-default": "dev-develop",
     "pattern-lab/styleguidekit-twig-gi": "0.*",
     "phpfastcache/phpfastcache": "~3.0",
