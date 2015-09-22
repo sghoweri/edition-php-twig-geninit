@@ -37,11 +37,6 @@
       "url":"https://github.com/sghoweri/patternlab-php-core"
     },
     {
-      "name":"pattern-lab/styleguidekit-assets-default",
-      "type":"git",
-      "url":"https://github.com/sghoweri/styleguidekit-assets-default"
-    },
-    {
       "type":"package",
       "package":{
         "name":"pattern-lab/styleguidekit-twig-gi",
@@ -58,7 +53,7 @@
     "php": ">=5.3.6",
     "pattern-lab/patternengine-twig": "0.*",
     "pattern-lab/core": "dev-dev",
-    "pattern-lab/styleguidekit-assets-default": "dev-develop",
+    "genuine/styleguidekit-assets-default": "dev-develop",
     "pattern-lab/styleguidekit-twig-gi": "0.*",
     "phpfastcache/phpfastcache": "~3.0",
     "gregwar/image": "2.*",
